@@ -22,17 +22,17 @@
 <li><h2>Chatterbot Corpus</h2></li>
     <b>This is a corpus of dialog data that is included in the chatterbot module.</b>
 </ul>
-<h1>How does this chatterbot work?</h1>
+<h1>How does this chatbot work?</h1>
 <div align="center"><img src="assets/flowchart.png"></div>
 <ul>
 <li><h4>After importing chatterbot and chatterbot corpus we create an instance of our chatbot class. We use logical adapters such as <code>chatterbot.logic.BestMatch</code> and <code>chatterbot.logic.TimeLogicAdapter</code>.</h4></li>
-    <code>bot = ChatBot(</br>
-        'Pranav',  </br>
+    <pre><code>bot = ChatBot(
+        'Pranav',
         logic_adapters=[
-            'chatterbot.logic.BestMatch',</br>
-            'chatterbot.logic.TimeLogicAdapter'],</br>
-    )</code>
-<li><h2>Logical Adapters-</h2></li>
+            'chatterbot.logic.BestMatch',
+            'chatterbot.logic.TimeLogicAdapter'],
+    )</code></pre>
+<li><h2>Logical Adapters</h2></li>
 <h4>Logic adapters determine the logic for how ChatterBot selects a response to a given input statement. It is possible to enter any number of logic adapters for your bot to use. If multiple adapters are used, then the bot will return the response with the highest calculated confidence value. If multiple adapters return the same confidence, then the adapter that is entered into the list first will take priority.</h4>
 <ul>
     <li><h3>chatterbot.logic.BestMatch</h3></li>
@@ -40,8 +40,27 @@
     <li><h3>chatterbot.logic.BestMatch</h3></li>
     <h4>The TimeLogicAdapter identifies statements in which a question about the current time is asked. If a matching question is detected, then a response containing the current time is returned.</h4>
 </ul>
-<li><h4></h4></li>
-<li><h4></h4></li>
-<li><h4></h4></li>
-<li><h4></h4></li>
+<li><h2>Training our chatbot</h2></li>
+<li><h4>ChatterBot includes tools that help simplify the process of training a chat bot instance. ChatterBot’s training process involves loading example dialog into the chat bot’s database. This either creates or builds upon the graph data structure that represents the sets of known statements and responses. When a chat bot trainer is provided with a data set, it creates the necessary entries in the chat bot’s knowledge graph so that the statement inputs and responses are correctly represented.</h4>
+<pre><code>from chatterbot.trainers import ChatterBotCorpusTrainer</code></pre>
+<h4>We can also train our chatterbot on a list using <code>chatterbot.trainers.ListTrainer</code></h4></li>
+<li><h4>Making an instance of the ChatterbotCorpusTrainer</h4>
+<pre><code>trainer.train('chatterbot.corpus.english')</code></pre></li>
+<li><h4>Here I have trained the chatbot using the inbuilt data in the chatterbot corpus.</h4>
+<pre><code>trainer.train('chatterbot.corpus.english')</code></pre>
+<div align="center"><img src="assets/training.png"></div>
+<h4>For more info on the data, refer to the official repo of the <a href="https://github.com/gunthercox/chatterbot-corpus">ChatterbotCorpus</a> package.</h4></li>
+<li><h4>This piece of code is pretty straight forward. It uses a while loop to get responses untill we get a 'Bye' from the user.</h4>
+<pre><code>name=input("Enter Your Name: ")
+print("Hi "+name+", how can I help you?")
+while True:
+    request=input(name+':')
+    if request=='Bye' or request =='bye':
+        print('Pranav: Bye')
+        break
+    else:
+        response=bot.get_response(request)
+        print('Pranav:',response)
+</code></pre>
+<h4>Here <code>get_response()</code> is a method of chatbot instance. It return the bot’s response based on the input.</h4></li>
 </html>
