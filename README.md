@@ -97,5 +97,5 @@ Run these commands in it.
     !pip install chatterbot_corpus
 </code></pre>
 </b></li></ol>
-<h4>Licensed under <a href="LICENSE">MIT LICENSE</a></h4>
+<h2>Licensed under <a href="LICENSE">MIT LICENSE</a></h2>
 </html>
