@@ -71,9 +71,9 @@ while True:
 
 <li>Download Python IDE (recommended Anaconda IDE)
 </br>
-	[Install Anaconda for Windows](https://docs.anaconda.com/anaconda/install/windows/)</br>
-	[Install Anaconda for MacOS](https://docs.anaconda.com/anaconda/install/mac-os/)</br>
-	[Install Anaconda for Linux](https://docs.anaconda.com/anaconda/install/linux/)
+	<a href="https://docs.anaconda.com/anaconda/install/windows/">Install Anaconda for Windows</a></br>
+	<a href="https://docs.anaconda.com/anaconda/install/mac-os/">Install Anaconda for MacOS</a></br>
+	<a href="https://docs.anaconda.com/anaconda/install/linux/">Install Anaconda for Linux</a>
     </li>
 </br>
 
