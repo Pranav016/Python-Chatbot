@@ -66,27 +66,27 @@ while True:
 </html>
 
 ## Environment Setup and Local Installation:
-1. <b>Drop a :star: on the Github Repository.
+1. **Drop a :star: on the Github Repository.**
 </br>
 
-1. Download Python IDE (recommended Anaconda IDE)
-	[Install Anaconda for Windows](https://docs.anaconda.com/anaconda/install/windows/)
-	[Install Anaconda for MacOS](https://docs.anaconda.com/anaconda/install/mac-os/)
+1. **Download Python IDE (recommended Anaconda IDE)**
+	[Install Anaconda for Windows](https://docs.anaconda.com/anaconda/install/windows/)</br>
+	[Install Anaconda for MacOS](https://docs.anaconda.com/anaconda/install/mac-os/)</br>
 	[Install Anaconda for Linux](https://docs.anaconda.com/anaconda/install/linux/)
-</br>
+    </br>
 
-1. Clone the Repo by going to your local Git Client and pushing this command:
+1. **Clone the Repo by going to your local Git Client and pushing this command:**</br>
 	`git clone https://github.com/Pranav016/Python-Chatbot.git`
     </br>
 
-1. Go to the AnacondaPrompt and use this command to install the packages. Open Jupyter Notebook to work-on/ use the chatbot:
+1. **Go to the AnacondaPrompt and use this command to install the packages. Open Jupyter Notebook to work-on/ use the chatbot:**
 	```bash
     pip install -r requirements.txt
     ```
     or
     </br>
-Open the project in your Jupyter Notebook.
-    Run these commands in it.
+**Open the project in your Jupyter Notebook.**
+    **Run these commands in it.**
 
     ``` bash
     !pip install chatterbot
