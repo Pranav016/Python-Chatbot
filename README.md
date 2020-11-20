@@ -75,21 +75,20 @@ while True:
 	[Install Anaconda for Linux](https://docs.anaconda.com/anaconda/install/linux/)
 </br>
 
-1. Go to the AnacondaPrompt and use command to install the packages:
+1. Clone the Repo by going to your local Git Client and pushing this command:
+	`git clone https://github.com/Pranav016/Python-Chatbot.git`
+    </br>
+
+1. Go to the AnacondaPrompt and use this command to install the packages. Open Jupyter Notebook to work-on/ use the chatbot:
 	```bash
     pip install -r requirements.txt
     ```
     or
     </br>
-    Run these commands in your Jupyter Notebook.
+Open the project in your Jupyter Notebook.
+    Run these commands in it.
 
     ``` bash
     !pip install chatterbot
     !pip install chatterbot_corpus
     ```
-
-1. Clone the Repo by going to your local Git Client and pushing this command:
-	`git clone https://github.com/Pranav016/Python-Chatbot.git`
-    </br>
-
-1. Open the project in Jupyter Notebook to use it.
