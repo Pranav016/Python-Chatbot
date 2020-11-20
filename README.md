@@ -64,3 +64,32 @@ while True:
 </code></pre>
 <h4>Here <code>get_response()</code> is a method of chatbot instance. It return the bot’s response based on the input.</h4></li>
 </html>
+
+## Environment Setup and Local Installation:
+1. <b>Drop a :star: on the Github Repository.
+</br>
+
+1. Download Python IDE (recommended Anaconda IDE)
+	[Install Anaconda for Windows](https://docs.anaconda.com/anaconda/install/windows/)
+	[Install Anaconda for MacOS](https://docs.anaconda.com/anaconda/install/mac-os/)
+	[Install Anaconda for Linux](https://docs.anaconda.com/anaconda/install/linux/)
+</br>
+
+1. Go to the AnacondaPrompt and use command to install the packages:
+	```bash
+    pip install -r requirements.txt
+    ```
+    or
+    </br>
+    Run these commands in your Jupyter Notebook.
+
+    ``` bash
+    !pip install chatterbot
+    !pip install chatterbot_corpus
+    ```
+
+1. Clone the Repo by going to your local Git Client and pushing this command:
+	`git clone https://github.com/Pranav016/Python-Chatbot.git`
+    </br>
+
+1. Open the project in Jupyter Notebook to use it.
