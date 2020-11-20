@@ -63,32 +63,38 @@ while True:
         print('Pranav:',response)
 </code></pre>
 <h4>Here <code>get_response()</code> is a method of chatbot instance. It return the bot’s response based on the input.</h4></li>
-</html>
 
-## Environment Setup and Local Installation:
-1. **Drop a :star: on the Github Repository.**
+<h1>Environment Setup and Local Installation:</h1>
+<ol>
+<li><b>Drop a <span style='font-size:20px;'>&#9733;</span> on the Github Repository.</br>
 </br>
 
-1. **Download Python IDE (recommended Anaconda IDE)**
+<li>Download Python IDE (recommended Anaconda IDE)
+</br>
 	[Install Anaconda for Windows](https://docs.anaconda.com/anaconda/install/windows/)</br>
 	[Install Anaconda for MacOS](https://docs.anaconda.com/anaconda/install/mac-os/)</br>
 	[Install Anaconda for Linux](https://docs.anaconda.com/anaconda/install/linux/)
-    </br>
+    </li>
+</br>
 
-1. **Clone the Repo by going to your local Git Client and pushing this command:**</br>
-	`git clone https://github.com/Pranav016/Python-Chatbot.git`
-    </br>
+<li>Clone the Repo by going to your local Git Client and pushing this command:
+</br>
+	<pre><code>git clone https://github.com/Pranav016/Python-Chatbot.git</code></pre>
+</li></br>
 
-1. **Go to the AnacondaPrompt and use this command to install the packages. Open Jupyter Notebook to work-on/ use the chatbot:**
-	```bash
+<li>Go to the AnacondaPrompt and use this command to install the packages. Open Jupyter Notebook to work-on/ use the chatbot:
+<pre><code>
     pip install -r requirements.txt
-    ```
+</code></pre>
+</br>
     or
-    </br>
-**Open the project in your Jupyter Notebook.**
-    **Run these commands in it.**
+</br>
 
-    ``` bash
+Open the project in your Jupyter Notebook.
+Run these commands in it.
+<pre><code>
     !pip install chatterbot
     !pip install chatterbot_corpus
-    ```
+</code></pre>
+</b></li></ol>
+</html>
